@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F6F6F6;
+}
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+#navbar li>a{
+    float: left;
+    line-height: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    color: #000000;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#navbar >li>a#logo{
+padding-right: 200px;
+padding-left: 13px;
+padding-bottom: 13px;
+}
+
+#navbar >li>a#account{
+    margin: 0px;
+    padding-left: 290px;
+    padding-right: 0;
+    line-height: 55px;
+
+}
+
+li.redir>a:hover{
+    background-color:whitesmoke ;
+}
+
+.ybs {
+    font-family:"OnePlus Sans Text", Roman-55, "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    float: left;
+    color: #ffffff;
+    position: absolute;
+}
+
+.phone {
+    font-family:"OnePlus Sans Text", Roman-55, "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 41px;
+    float: left;
+    color: #ffffff;
+    position: absolute;
+    text-decoration: none;
+
+}
+
+.lm {
+    font-family:"OnePlus Sans Text", Roman-55, "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    float: left;
+    color: #ffffff;
+    position: absolute;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+#ybs1{
+    left: 300px;
+    bottom:400px;
+}
+
+#phone1{
+    left: 300px;
+    bottom:355px;
+}
+
+#lm1{
+    left: 300px;
+    bottom:300px;
+}
+
+
+#ybs2{
+    left: 800px;
+    bottom:-300px;
+}
+
+#phone2{
+    left: 800px;
+    bottom:-345px;
+}
+
+#lm2{
+    left: 800px;
+    bottom:-395px;
+}
+
+#phone3{
+    left: 800px;
+    bottom:-1000px;
+}
+
+#freebuds{
+    left: 800px;
+    bottom:-1045px;
+}
+
+#lm3{
+    left: 800px;
+    bottom:-1095px;
+}
+div{
+    display: flex;
+    margin: 0;
+}
+
+section{
+    height: 350px;
+    width: 100%;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
+    grid-template-rows: 30% 40% 30%;
+}
+
+.img{
+    height: 50px; 
+    margin: 50px auto 30px;
+}
+
+.comments {
+    width: 120px;
+    font-family:"OnePlus Sans Text", Roman-55, "Helvetica Neue", Helvetica, Arial, sans-serif, system-ui;;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #666666;
+
+}
+
+
+.images {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .images p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+  }
+
